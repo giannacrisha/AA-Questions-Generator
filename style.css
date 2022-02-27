@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+} 
+
+#aalogo {
+	width: 200px;
+	display: block;
+	margin: auto;
+	padding-top: 0.5em;
+}
+ /* GENERATOR */
+#generator {
+	padding: 50px 0 0 0;
+	text-align: center;
+}
+
+#title {
+	font-family: onStage;
+	color: #233844;
+	padding: 0.5em 1em 1em 1em;
+	font-size: 3em;
+}
+
+#questionDisplay {
+	font-family: proximaNova;
+	font-size: 1.5em;
+}
+button {
+	font-family: onStage;
+	padding: 1em;
+	border-radius: 50px;
+	border-style: none;
+	font-size: 1.5em;
+	margin: 2em;
+	transition: 0.5s;
+	background-color: #A4B4BF;
+}
+
+button:hover  {
+	background-color: #233844;
+	color: white;
+
+}
+
+
+
+/* FOOTER */
+
+marquee {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+footer {
+	background-color: #233844;
+	color: white;
+	font-family: proximaNova;
+	padding: 3em;
+	margin-top: 5em;
+}
+
+footer a {
+	color: white;
+	font-weight: bold;
+}
+
+#copyright {
+	text-align: center;
+	margin: 1em;
+}
+/* FONTS */
+
+@font-face {
+	font-family: onStage;
+	src: url(font/onstage.ttf);
+}
+
+@font-face {
+	font-family: proximaNova;
+	src: url(font/proxima.otf);
+}
