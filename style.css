@@ -50,6 +50,7 @@ marquee {
     display: flex;
     justify-content: space-between;
     margin: 1em;
+    font-weight: bold;
 }
 
 footer {
